@@ -30,8 +30,6 @@ void PrintVectorsInMemory(vectors* saved_vectors);
 void* ChooseVector(vectors* saved_vectors, int& type);
 void* CreateVector(vectors* saved_vectors, int& v_type, int p_type = 0, int p_dim = 0);
 
-
 int GetDim(void* vector, int type);
-
 
 std::complex<double>* RandComplexSeq(int size);
