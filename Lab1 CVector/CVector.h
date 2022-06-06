@@ -70,7 +70,7 @@ void* Pop(size_t index, vector* vec);
 // returns ptr to new vector without some element by index
 vector* DeleteAt(size_t index, vector* vec);
 
-// returns new vector which contains elements of old vector from a inclusively to b not inclusively [a, b) 
+// returns new vector which contains elements of old vector from a inclusively to b [a, b) 
 vector* Take(size_t begin, size_t end, vector* vec);
 
 // vector concatenation 
