@@ -6,10 +6,10 @@
 В данном случае реализованы коллекции для хранения целых чисел и строк.
 ## Лабораторная работа №2
 Реализация полиморфного абстрактного типа данных (АТД) – с помощью нескольких уровней абстракции, на языке С++ 
-На нижнем уровне реализуются структуры для организации данных в памяти – [DynamicArray](https://github.com/ComradeAndrewQS37/CompSci-2nd-semester/blob/master/Lab2%20Sequence/DynamicArray.h) и [LinkedList](https://github.com/ComradeAndrewQS37/CompSci-2nd-semester/blob/master/Lab2%20Sequence/LinkedList.h). 
-Уровнем выше располагается абстракция ([Sequence](https://github.com/ComradeAndrewQS37/CompSci-2nd-semester/blob/master/Lab2%20Sequence/Sequence.h)), обеспечивающая возможности унифицированной работы со всеми структурами нижнего уровня. 
+На нижнем уровне реализуются структуры для организации данных в памяти – [DynamicArray](Lab2%20Sequence/DynamicArray.h) и [LinkedList](Lab2%20Sequence/LinkedList.h). 
+Уровнем выше располагается абстракция ([Sequence]Lab2%20Sequence/Sequence.h)), обеспечивающая возможности унифицированной работы со всеми структурами нижнего уровня. 
 Целевой АТД, реализация которого и является конечной целью задания, располагается на самом верхнем уровне и использует АТД последовательность для реализации большинства операций. 
-В данном случае в качестве главного типа данных реализована [матрица](https://github.com/ComradeAndrewQS37/CompSci-2nd-semester/blob/master/Lab2%20Sequence/Matrix.h) и основные операции на ней.
+В данном случае в качестве главного типа данных реализована [матрица](Lab2%20Sequence/Matrix.h) и основные операции на ней.
 ## Лабораторная работа №3
-Реализация абстрактного типа данных на основе структур данных типа дерево на языке C++. В данном варианте реализованы [бинарное дерево поиска](https://github.com/ComradeAndrewQS37/CompSci-2nd-semester/blob/master/Lab3%20Trees/BinaryTree.h) с реализацией обхода по заданному шаблону и [n-арное дерево](https://github.com/ComradeAndrewQS37/CompSci-2nd-semester/blob/master/Lab3%20Trees/NTree.h). 
-В данной работе используются типы данных, написанные в предыдущей лабораторной работе (например, [ArraySequence](https://github.com/ComradeAndrewQS37/CompSci-2nd-semester/blob/master/Lab3%20Trees/ArraySequence.h)).
+Реализация абстрактного типа данных на основе структур данных типа дерево на языке C++. В данном варианте реализованы [бинарное дерево поиска](Lab3%20Trees/BinaryTree.h) с реализацией обхода по заданному шаблону и [n-арное дерево](Lab3%20Trees/NTree.h). 
+В данной работе используются типы данных, написанные в предыдущей лабораторной работе (например, [ArraySequence]Lab3%20Trees/ArraySequence.h)).
